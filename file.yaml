@@ -1,11 +1,15 @@
 file_type: csv
-dataset_name: testfile
-file_name: test_data
-table_name: edsurv
+file_name: 2019-Oct
 inbound_delimiter: ","
 outbound_delimiter: "|"
 skip_leading_rows: 1
 columns: 
-    - city
+    - event_time
+    - event_type
+    - product_id
+    - category_id
+    - category_code
+    - brand
+    - user_id
+    - user_session
     - price
-    - distance
